@@ -8,6 +8,9 @@ const Articles = ({name}) => {
     </div>
 
     <div className='flex flex-wrap gap-20 '>
+
+                                           {/* ---Card 1---  */}
+
             <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700  ">
                 <a href="https://www.health.harvard.edu/topics/mental-health">
                     <img className="pt-4 rounded-t-lg h-[300px] w-full object-cover" src="https://imgs.search.brave.com/Ei7Dig_GI4Lx-t7-Shzj6DMssKA2WVriSsemJLvEoQA/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9ncmVh/dHBlb3BsZWluc2lk/ZS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDIvbWVu/dGFsLWhlYWx0aC5q/cGc" alt="cover" />
@@ -29,6 +32,7 @@ const Articles = ({name}) => {
                 </div>
             </div>
 
+                                               {/* ---Card 2---  */}
 
             <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
                 <a href="https://www.health.harvard.edu/newsletter_article/sleep-and-mental-health"> 
@@ -50,7 +54,8 @@ const Articles = ({name}) => {
                     
                 </div>
             </div>
-
+                                                 
+                                                  {/* ---Card 3---  */}
 
             <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
                 <a href="https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626"> 
@@ -74,7 +79,8 @@ const Articles = ({name}) => {
             </div>
 
 
-            
+                                                     {/* ---Card 4---  */}
+
             <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="https://fherehab.com/learning/relationship-red-flag-mental-health"> 
                         <img className="pt-4 rounded-t-lg h-[300px] w-full object-cover" src="https://imgs.search.brave.com/ACpA6_tX2lfiE4Yqv0sVrsEJ-N6ely0zDIkj82IBilE/rs:fit:1000:667:1/g:ce/aHR0cHM6Ly93aGl0/ZXNhbmRzdHJlYXRt/ZW50LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wMS9U/aGUtUmVsYXRpb25z/aGlwLUJldHdlZW4t/TWVudGFsLUhlYWx0/aC1hbmQtQWRkaWN0/aW9uLmpwZw  " alt="cover" />
@@ -95,6 +101,77 @@ const Articles = ({name}) => {
                     
                 </div>
             </div>
+
+                                                     {/* ---Card 5---  */}
+
+            <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="https://health.gov/news/202112/physical-activity-good-mind-and-body"> 
+                        <img className="pt-4 rounded-t-lg h-[300px] w-full object-cover" src="https://imgs.search.brave.com/nS-LcTVYtjLNs6GRcRLoHUhhDDXWMY3h531G4tHqPqk/rs:fit:845:468:1/g:ce/aHR0cDovL3d3dy5m/aXRraW5nLmluL0Js/b2dJbWFnZS82Ni5q/cGc " alt="cover" />
+                </a>
+                <div className="p-5">
+                    <a href="#" className='flex mb-2 items-center justify-between'>
+                        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            {name}
+                        </h5>
+                        
+                    </a>
+                        <Link href="https://health.gov/news/202112/physical-activity-good-mind-and-body" >
+                            <div className='absolute transitionall cursor-pointer bg-white self-center -bottom-3 left-[34%] p-[.4545rem] px-6 dark-shadows rounded-xl'>
+                            View
+                            </div>
+                        </Link>
+                           <p className='mx-8 font-bold'>Exercise and Mental Health <span className='mx-9'>- by HARVARD</span></p>
+                    
+                </div>
+            </div>
+
+                                                       {/* ---Card 6---  */} 
+
+            <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="https://fherehab.com/learning/relationship-red-flag-mental-health"> 
+                        <img className="pt-4 rounded-t-lg h-[300px] w-full object-cover" src="https://imgs.search.brave.com/ACpA6_tX2lfiE4Yqv0sVrsEJ-N6ely0zDIkj82IBilE/rs:fit:1000:667:1/g:ce/aHR0cHM6Ly93aGl0/ZXNhbmRzdHJlYXRt/ZW50LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wMS9U/aGUtUmVsYXRpb25z/aGlwLUJldHdlZW4t/TWVudGFsLUhlYWx0/aC1hbmQtQWRkaWN0/aW9uLmpwZw  " alt="cover" />
+                </a>
+                <div className="p-5">
+                    <a href="#" className='flex mb-2 items-center justify-between'>
+                        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            {name}
+                        </h5>
+                        
+                    </a>
+                        <Link href="https://fherehab.com/learning/relationship-red-flag-mental-health" >
+                            <div className='absolute transitionall cursor-pointer bg-white self-center -bottom-3 left-[34%] p-[.4545rem] px-6 dark-shadows rounded-xl'>
+                            View
+                            </div>
+                        </Link>
+                           <p className='mx-8 font-bold'>Relationships and Mental Health <span className='mx-9'>- by HARVARD</span></p>
+                    
+                </div>
+            </div>
+
+                                                        {/* ---Card 7---  */}  
+
+            <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <a href="https://fherehab.com/learning/relationship-red-flag-mental-health"> 
+                        <img className="pt-4 rounded-t-lg h-[300px] w-full object-cover" src="https://imgs.search.brave.com/ACpA6_tX2lfiE4Yqv0sVrsEJ-N6ely0zDIkj82IBilE/rs:fit:1000:667:1/g:ce/aHR0cHM6Ly93aGl0/ZXNhbmRzdHJlYXRt/ZW50LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wMS9U/aGUtUmVsYXRpb25z/aGlwLUJldHdlZW4t/TWVudGFsLUhlYWx0/aC1hbmQtQWRkaWN0/aW9uLmpwZw  " alt="cover" />
+                </a>
+                <div className="p-5">
+                    <a href="#" className='flex mb-2 items-center justify-between'>
+                        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            {name}
+                        </h5>
+                        
+                    </a>
+                        <Link href="https://fherehab.com/learning/relationship-red-flag-mental-health" >
+                            <div className='absolute transitionall cursor-pointer bg-white self-center -bottom-3 left-[34%] p-[.4545rem] px-6 dark-shadows rounded-xl'>
+                            View
+                            </div>
+                        </Link>
+                           <p className='mx-8 font-bold'>Relationships and Mental Health <span className='mx-9'>- by HARVARD</span></p>
+                    
+                </div>
+            </div>
+                                                    
+                                                          {/* ---Card 8---  */}
 
             <div className="max-w-sm scale-90 hover:scale-[1] transitionall h-[320px] font-prosans relative w-[300px] bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <a href="https://fherehab.com/learning/relationship-red-flag-mental-health"> 

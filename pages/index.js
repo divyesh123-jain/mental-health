@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Articles from '../components/Articles'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Articles />
+      <Footer />
       
     </div>
   )
