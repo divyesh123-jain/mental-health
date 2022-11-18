@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className='mx-4 pt-12 grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8'>
         <h1 className='grid2-item h-60 pt-28'>
            <p className='pt-7 mx-20 text-2xl font-sanserif'>You <span className='font-bold'>don`t</span> have to<br /><span className='mx-8'>stuggle in</span> <br /><span className='mx-7 font-bold'>silenece!!</span></p>
-           <button className='mx-28 pt-3 font-serif border-b-4 border-indigo-500'>Learn More</button>
+           <a href='#123'><button className='mx-28 pt-3 font-serif border-b-4 border-indigo-500'>Learn More</button></a>
         </h1>
                             {/* ---IMAGE---  */}
         <p className='grid2-item h-40'>
