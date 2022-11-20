@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import star from '../Images/star.png'
-import main from '../Images/main.png'
+import star from '../../Images/star.png'
+import main from '../../Images/main.png'
 
 
 const Navbar = () => {
