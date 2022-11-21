@@ -189,7 +189,7 @@ const Articles = ({name}) => {
                             View
                             </div>
                         </Link>
-                           <p className='mx-8 font-bold'>Relationships and Mental Health</p>
+                           <p className='mx-8 font-bold'>Relationship and Mental Health</p>
                     
                 </div>
             </div>
